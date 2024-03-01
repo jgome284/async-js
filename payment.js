@@ -10,6 +10,8 @@ const processPayment = (responseArray) => {
      // If we were making more realistic code, we would want to update the giftcardBalance and the inventory
      if (hasEnoughMoney) {
        console.log(`Payment processed with giftcard.`);
+       const remainingBalance = order.giftcardBalance - total
+       console.log(` - Remaining Balance: ${remainingBalance.toFixed(2)}`)
        resolve([order]);
      } else {
        reject(`Cannot process order: giftcard balance was insufficient.`);
