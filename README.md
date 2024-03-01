@@ -48,8 +48,8 @@ This project is setup with a Dev Container for use on Visual Studio Code. It ser
 
 To start, you need to have Docker Engine and Docker Compose on your machine. You can either:
 
-- Install Docker Desktop which includes both Docker Engine and Docker Compose
-- Install Docker Engine and Docker Compose as standalone binaries
+- Install [Docker Desktop](https://www.docker.com/products/docker-desktop/) which includes both Docker Engine and Docker Compose. (Recommended ⭐)
+- Install [Docker Engine](https://docs.docker.com/engine/install/binaries/) and [Docker Compose](https://docs.docker.com/compose/install/standalone/) as standalone binaries. (If it suits your fancy 🤵)
 
 ### VSCode
 
