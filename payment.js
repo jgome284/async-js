@@ -18,3 +18,5 @@ const processPayment = (responseArray) => {
   }, generateRandomDelay());
    });
   };
+
+module.exports = {processPayment}
