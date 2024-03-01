@@ -34,7 +34,7 @@ JavaScript is an interesting language; it's single threaded, but it's built to m
   <img src="./imgs/js-runtime-env.jpg" alt="JavaScript Engine Diagram" height="450px">
 </p>
 
-This project provides a playground for asynchronous functions and HTTP requests in JavaScript. It includes a jupyter notebook with iJavaScript that provides several examples. IJavascript is a Javascript kernel for the [Jupyter notebook](http://jupyter.org/). The Jupyter notebook combines the creation of rich-text documents (including equations, graphs and videos) with the execution of code in a number of programming languages. The execution of code is carried out by means of a kernel that implements the [Jupyter messaging protocol](http://jupyter-client.readthedocs.io/en/latest/messaging.html). The IJavascript kernel executes Javascript code inside a [Node.js](https://nodejs.org/) session. And thus, it behaves as the Node.js REPL does, providing access to the Node.js standard library and to any installed [npm](https://www.npmjs.com/) modules.
+This project provides a playground for asynchronous functions and HTTP requests in JavaScript. It includes a jupyter notebook with iJavaScript that provides several examples. iJavaScript is a Javascript kernel for the [Jupyter notebook](http://jupyter.org/). The Jupyter notebook combines the creation of rich-text documents (including equations, graphs and videos) with the execution of code in a number of programming languages. The execution of code is carried out by means of a kernel that implements the [Jupyter messaging protocol](http://jupyter-client.readthedocs.io/en/latest/messaging.html). The iJavaScript kernel executes Javascript code inside a [Node.js](https://nodejs.org/) session. And thus, it behaves as the Node.js REPL does, providing access to the Node.js standard library and to any installed [npm](https://www.npmjs.com/) modules.
 
 ## Setup
 
@@ -57,4 +57,8 @@ This devcontainer is setup for development on Visual Studio Code. You should hav
 
 ## Getting Started
 
-Open Docker Desktop to run the Docker daemon, a background process that manages and coordinates Docker containers on your system. On VS Code, start the development container by running `Dev Containers: Rebuild and Reopen In Container` in the command palette. It can be accessed with the keyboard shortcut `ctrl + shift + P` on your keyboard. If successful, Visual Studio will establish a remote connection to the development container. When it does, feel free to look over the examples on [async-js.ipynb](./async-js.ipynb) and create your own notebook to try working with JavaScript on your own!
+To start, open VS Code in a directory of your choice. Open the terminal and clone this repository with `git clone https://github.com/jgome284/async-js`.
+
+Open Docker Desktop to run the Docker daemon, a background process that manages and coordinates Docker containers on your system. On VS Code, start the development container by running `Dev Containers: Rebuild and Reopen In Container` in the command palette. It can be accessed with the keyboard shortcut `ctrl + shift + P` on your keyboard.
+
+If successful, Visual Studio will establish a remote connection to the development container. When it does, feel free to look over the examples on [async-js.ipynb](./async-js.ipynb) and create your own notebook to try working with JavaScript on your own!
