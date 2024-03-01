@@ -28,6 +28,8 @@
 
 ## About
 
+Often in web development, we need to handle asynchronous actions— actions we can wait on while moving on to other tasks. We make requests to networks, databases, or any number of similar operations. JavaScript is non-blocking: instead of stopping the execution of code while it waits, JavaScript uses an event-loop which allows it to efficiently execute other tasks while it awaits the completion of these asynchronous actions.
+
 JavaScript is an interesting language; it's single threaded, but it's built to mimic multi-threaded-isities to free itself from blocking sequential code. It does so by pushing callbacks with promises for handling through a WebAPI. For a good introduction, checkout [this article](https://vahid.blog/post/2021-03-21-understanding-the-javascript-runtime-environment-and-dom-nodes/) and the diagram below.
 
 <p align="center">
