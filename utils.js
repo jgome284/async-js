@@ -6,4 +6,8 @@ function generateRandomDelay() {
     return Math.floor(Math.random() * 2000);
   }
 
-module.exports = {generateRandomDelay}
+function randomSuccess(pct) {
+    // returns true at rate of 1/pct - e.g. 1/0.2 would return true 80% of the time
+    return (Math.random() > pct);
+}
+
