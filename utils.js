@@ -23,3 +23,5 @@ const promisifiedReadfile = (file, encoding) =>
         resolve(text);
       });
 });
+
+module.exports = {generateRandomDelay, randomSuccess, promisifiedReadfile}
